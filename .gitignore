@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.lock
+
+# The 1-minute bar store and the daily companion are not redistributed; see
+# data/README.md. The fetcher in the kase-market-data repository recreates them
+# locally, and these paths are where _store.py looks for a copy or a symlink.
+data/kase/intraday/
+data/kase/intraday
+data/kase/daily/
+data/kase/daily
+data/nasdaq/intraday/
+data/nasdaq/intraday
+*.parquet
+*.db
+
+# Raw Yahoo chart JSON, read only by foreign_legs.py, never committed.
+data/cache/
+
+# Local scratch
+scratch/
+out/

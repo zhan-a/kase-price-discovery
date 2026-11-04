@@ -1,0 +1,6 @@
+estimator,window,treatment,n,spread,headline
+roll,all KSPI sessions in the store,median of per-session estimates,748,0.002431473131,True
+roll,sessions from 2024-01-01,median of per-session estimates,637,0.002364014085,False
+corwin_schultz,sessions from 2024-01-01,median of positive two-day estimates,320,0.004672722736,True
+corwin_schultz,sessions from 2024-01-01,"mean, negatives set to zero",647,0.003140454173,False
+commission,tariff,per side,0,0.00085,True

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata below.
+title: "Price discovery between KASE and its foreign co-listing venues"
+abstract: >-
+  Measures how fast the Kazakhstan Stock Exchange absorbs a foreign price move
+  that arrived while it was closed, and how that differs across co-listings with
+  and without session overlap. Kaspi.kz trades on KASE and NASDAQ, whose regular
+  sessions share no clock time; Kazatomprom and Air Astana trade on KASE and the
+  LSE International Order Book, which overlap it. Reports the opening gap and
+  intraday drift on the prior foreign move with Newey-West HAC standard errors,
+  the dependence of that split on which price is called the open, a conditioning
+  test on foreign prices visible during the local session, and a three-pair
+  overlap contrast. The bar store is not redistributed; data/README.md describes
+  how to attach it.
+type: software
+authors:
+  - given-names: Zhan
+    family-names: Amankeldy
+repository-code: "https://github.com/zhan-a/kase-price-discovery"
+license: MIT
+date-released: "2026-10-30"
+keywords:
+  - price discovery
+  - cross-listing
+  - market microstructure
+  - emerging markets
+  - reproducibility

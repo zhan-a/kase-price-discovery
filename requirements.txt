@@ -1,0 +1,9 @@
+# Analysis stack
+pandas>=2.0,<3
+numpy>=1.24,<3
+scipy>=1.11,<2
+statsmodels>=0.14,<1
+pyarrow>=14.0        # Parquet partitions of the bar store
+
+# Plotting
+matplotlib>=3.7
